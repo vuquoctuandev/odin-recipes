@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Broccoli Cauliflower Casserole</title>
+  </head>
+  <body>
+    <h1>Broccoli Cauliflower Casserole</h1>
+    <img
+      src="../resource/image/Broccoli Cauliflower Casserole.png"
+      alt="Broccoli Cauliflower Casserole "
+    />
+    <h2>Description</h2>
+    <h3>Ingredients</h3>
+    <ul>
+      <li>2 cups broccoli</li>
+      <li>2 cups cauliflower</li>
+      <li>2 large eggs</li>
+      <li>1 cup shredded Cheddar cheese, divided</li>
+      <li>½ cup mayonnaise</li>
+      <li>½ cup chopped onion</li>
+      <li>½ cup butter, melted</li>
+      <li>1 (15 ounce) package seasoned croutons, crushed</li>
+    </ul>
+    <h3>Step</h3>
+    <style>
+      .step-ol {
+        list-style-type: none;
+        counter-reset: step-counter; /* Khởi tạo bộ đếm */
+        padding-left: 0;
+      }
+
+      .step-ol > li {
+        counter-increment: step-counter; /* Tăng giá trị bộ đếm */
+        margin-bottom: 0.5rem;
+        margin-left: 2rem;
+      }
+
+      .step-ol > li::before {
+        content: 'Step ' counter(step-counter) ': '; /* Tiền tố tự động */
+        font-weight: bold;
+      }
+
+      .step-ol > li p {
+        margin-left: 1rem;
+      }
+    </style>
+    <ol class="step-ol">
+      <li>
+        <p>Preheat the oven to 350 degrees F (175 degrees C).</p>
+      </li>
+      <li>
+        <p>
+          Place broccoli and cauliflower in separate saucepans, cover with water, and bring to a
+          boil; cook until tender, 3 to 4 minutes. Drain and arrange in an 11x7-inch baking dish.
+        </p>
+      </li>
+      <li>
+        <p>
+          Beat eggs in a bowl until creamy. Stir in 1/2 cup Cheddar cheese, mayonnaise, and onion;
+          pour over vegetables. Pour melted butter on top and sprinkle with remaining 1/2 cup
+          Cheddar cheese. Scatter crushed croutons evenly on top.
+        </p>
+      </li>
+      <li>
+        <p>Bake in the preheated oven until browned and bubbling, about 40 minutes.</p>
+      </li>
+    </ol>
+  </body>
+</html>
